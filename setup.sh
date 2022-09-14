@@ -53,16 +53,6 @@ function setup_omni() {
 
   update_files "omni" "$firefox_omni_extracted_dir" "OMNI"
 
-  #for file in "$base_dir/omni"/**; do
-  #  if [[ -f $file ]]; then
-  #    file_relative=$(echo $file | sed "s|$base_dir\/omni\/||g")
-  #    if [[ -f $firefox_omni_extracted_dir/$file_relative ]]; then
-  #      say "Updating OMNI: $file_relative"
-  #      cp -f $file $firefox_omni_extracted_dir/$file_relative
-  #    fi
-  #  fi
-  #done
-
   cd $firefox_omni_extracted_dir
   sudo zip -q -r $firefox_omni_file_zip *
   sudo mv $firefox_omni_file_zip $firefox_omni_file
