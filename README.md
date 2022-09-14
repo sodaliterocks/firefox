@@ -1,0 +1,3 @@
+# Firefox (for Sodalite)
+
+(todo)
