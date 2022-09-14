@@ -54,9 +54,9 @@ function setup_omni() {
   update_files "omni" "$firefox_omni_extracted_dir" "OMNI"
 
   cd $firefox_omni_extracted_dir
-  sudo zip -q -r $firefox_omni_file_zip *
-  sudo mv $firefox_omni_file_zip $firefox_omni_file
-  
+  zip -q -r $firefox_omni_file_zip *
+  mv $firefox_omni_file_zip $firefox_omni_file
+
   if [[ $SODALITE_FIREFOX_KEEP_OMNI_EXTRACTED == "true" ]]; then
     firefox_omni_extracted_dir_backup="${firefox_omni_extracted_dir}_backup"
     say "$firefox_omni_extracted_dir_backup"
