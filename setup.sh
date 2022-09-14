@@ -69,7 +69,7 @@ if [[ ! $(id -u) = 0 ]]; then
     die "Unauthorized (are you root?)"
 fi
 
-[[ ! -f /usr/lib/sodalite-release ]] && die "Not a Sodalite install"
+[[ ! -f /usr/lib/fedora-release ]] && die "Not a Fedora install"
 
 touch /usr/lib/test-file &> /dev/null
 [[ ! $? -eq 0 ]] && die "No write permissions to OS (is usroverlay enabled?)"
