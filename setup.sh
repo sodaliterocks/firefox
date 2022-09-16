@@ -59,7 +59,6 @@ function setup_omni() {
 
   if [[ $SODALITE_FIREFOX_KEEP_OMNI_EXTRACTED == "true" ]]; then
     firefox_omni_extracted_dir_backup="${firefox_omni_extracted_dir}_backup"
-    say "$firefox_omni_extracted_dir_backup"
     rm -rf $firefox_omni_extracted_dir_backup
     cp -r $firefox_omni_extracted_dir $firefox_omni_extracted_dir_backup
   fi
