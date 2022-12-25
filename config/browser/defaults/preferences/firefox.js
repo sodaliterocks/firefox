@@ -8,6 +8,7 @@ pref("browser.gnome-search-provider.enabled",true);
 pref("browser.link.open_external",          3);
 pref("browser.newtabpage.activity-stream.topsites",false);
 pref("browser.newtabpage.activity-stream.feeds.section.highlights",true);
+pref("browser.newtabpage.activity-stream.feeds.section.highlights.rows",2);
 pref("browser.newtabpage.activity-stream.feeds.section.topstories",false);
 pref("browser.newtabpage.activity-stream.showSponsored",false);
 pref("browser.newtabpage.activity-stream.showSponsoredTopSites",false);
