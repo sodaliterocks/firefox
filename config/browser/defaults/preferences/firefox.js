@@ -6,6 +6,7 @@ pref("browser.display.use_system_colors",   false); /* SEE: https://bugzilla.red
 pref("browser.download.folderList",         1);
 pref("browser.gnome-search-provider.enabled",true);
 pref("browser.link.open_external",          3);
+pref("browser.newtabpage.activity-stream.topsites",false);
 pref("browser.newtabpage.activity-stream.feeds.section.highlights",true);
 pref("browser.newtabpage.activity-stream.feeds.section.topstories",false);
 pref("browser.newtabpage.activity-stream.showSponsored",false);
